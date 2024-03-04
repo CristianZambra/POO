@@ -1,0 +1,7 @@
+/**
+ * Denuncia
+ */
+public class Denuncia {
+
+    
+}
