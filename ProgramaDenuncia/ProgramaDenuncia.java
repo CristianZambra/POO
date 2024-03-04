@@ -17,6 +17,10 @@ public class ProgramaDenuncia {
        // Datos para oficial encargado
        String ooficialencargado = "Oficial Mario";
 
+
+       // Datos para el codigo de denuncia
+       CodigoDenuncia codigoDenuncia = new CodigoDenuncia(2569);
+
         
     }
 }

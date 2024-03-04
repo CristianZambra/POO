@@ -9,6 +9,11 @@ public class Crimen {
         this.descripcion = descripcion;
     }
 
+    @Override
+    public String toString() {
+        return "Nombre: " + nombre + ", Descripción: " + descripcion;
+    }
+
     public String getNombre() {
         return nombre;
     }

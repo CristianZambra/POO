@@ -22,6 +22,12 @@ public class Denuncia {
         this.codigoDenuncia = codigoDenuncia;
     }
 
+
+    @Override
+    public String toString() {
+        return "Tipo de denuncia: " + tipoDenuncia + ", Descripción: " + descripcionDenuncia + ", Fecha y hora: " + fechaHora + ", Agente encargado: " + oficialencargado + ", Información del ofensor: " + informacionOfensor + ", Estado de denuncia: " + estadoDenuncia + ", Crímenes previos: " + crimenesPrevios + ", Código de denuncia: " + codigoDenuncia.getCodigo();
+    }
+
     public String getTipoDenuncia() {
         return tipoDenuncia;
     }

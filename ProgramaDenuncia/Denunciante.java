@@ -16,6 +16,13 @@ public class Denunciante {
         this.sexo = sexo;
     }
 
+    @Override
+    public String toString() {
+        return "Nombre: " + nombreCompleto + ", ID: " + numeroID + ", Dirección: " + direccionDomicilio + ", Tipo de denuncia: " + tipoDenuncia + ", Sexo: " + sexo;
+    
+    }   
+    
+
     public String getNombreCompleto() {
         return nombreCompleto;
     }
