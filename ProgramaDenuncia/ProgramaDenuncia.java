@@ -21,6 +21,16 @@ public class ProgramaDenuncia {
        // Datos para el codigo de denuncia
        CodigoDenuncia codigoDenuncia = new CodigoDenuncia(2569);
 
+
+
+       // Solicitar datos del ofendido
+        // Solicitar datos del denunciante
+         // Solicitar datos del denunciante
+         System.out.println("Ingrese los datos del denunciante:");
+         System.out.print("Nombre completo: ");
+         String nombreDenunciante = scanner.nextLine();
+          System.out.print("Número de ID: ");
+
         
     }
 }
