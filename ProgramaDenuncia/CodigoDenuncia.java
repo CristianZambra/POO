@@ -15,7 +15,6 @@ public class CodigoDenuncia {
         this.codigo = codigo;
     }
 
-    //comentario unicio de codigo
-    //
-    //poo prueba
+    //hola mundo
+    
 }
