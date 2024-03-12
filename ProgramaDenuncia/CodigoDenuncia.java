@@ -15,6 +15,5 @@ public class CodigoDenuncia {
         this.codigo = codigo;
     }
 
-    //hola mundo
-    
+
 }
