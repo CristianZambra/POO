@@ -31,11 +31,5 @@ public class ProgramaDenuncia {
          String nombreDenunciante = scanner.nextLine();
           System.out.print("Número de ID: ");
 
-        
-
-
-/////////////////////////////////////////////////////////////////////////////////////////////////////
-prueba 2
-
     }
 }
