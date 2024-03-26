@@ -1,6 +1,13 @@
-package ProgramaDenuncia;
-
-public class CodigoDenuncia {
+package com.mycompany.programadenuncia;
+import java.util.Scanner;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+/**
+ *
+ *   @author ancerrato
+ *  
+ */
+class CodigoDenuncia {
     private int codigo;
 
     public CodigoDenuncia(int codigo) {
@@ -14,8 +21,9 @@ public class CodigoDenuncia {
     public void setCodigo(int codigo) {
         this.codigo = codigo;
     }
-
-  
+ 
+    
+    
 }
 
-// nuevo clon al repositorio
+
