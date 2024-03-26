@@ -1,14 +1,21 @@
 package ProgramaDenuncia;
 
-public class Crimen {
-    private String nombre;
+import java.util.Scanner;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+/**
+ *
+ * @author ancerrato
+ */
+class Crimenes {
+   private String nombre;
     private String descripcion;
 
-    public Crimen(String nombre, String descripcion) {
+    public Crimenes(String nombre, String descripcion) {
         this.nombre = nombre;
         this.descripcion = descripcion;
     }
-
+ 
     @Override
     public String toString() {
         return "Nombre: " + nombre + ", Descripción: " + descripcion;
@@ -29,7 +36,6 @@ public class Crimen {
     public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
     }
-
     
     
 }

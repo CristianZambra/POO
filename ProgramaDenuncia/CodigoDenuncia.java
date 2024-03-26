@@ -1,11 +1,10 @@
-package com.mycompany.programadenuncia;
+package ProgramaDenuncia;
 import java.util.Scanner;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 /**
  *
- *   @author ancerrato
- *  
+ * @author ancerrato
  */
 class CodigoDenuncia {
     private int codigo;
@@ -25,5 +24,3 @@ class CodigoDenuncia {
     
     
 }
-
-
