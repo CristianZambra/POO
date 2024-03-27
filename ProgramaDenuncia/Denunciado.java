@@ -12,7 +12,7 @@ public class Denunciado {
     private int numeroID;
     private String direccionDomicilio;
     private String sexo;
-    
+
     public Denunciado(String nombreCompleto, int numeroID, String direccionDomicilio, String sexo) {
         this.nombreCompleto = nombreCompleto;
         this.numeroID = numeroID;
@@ -21,7 +21,13 @@ public class Denunciado {
     }
 
 
+@Override
+    public String toString() {
+        return "Nombre: " + nombreCompleto + ", ID: " + numeroID + ", Dirección: " + direccionDomicilio + ", Sexo: " + sexo;
+    }
 
+
+    
 
 
 
