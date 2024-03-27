@@ -23,6 +23,15 @@ public class ProgramaDenuncia {
     //Datos solicitados el Denunciante
     System.out.println("Ingrese los datos del denunciante:");
     System.out.print("Nombre completo: ");
+    String nombreDenunciante = scanner.nextLine();
+    System.out.print("Número de ID: ");
+    int idDenunciante = Integer.parseInt(scanner.nextLine());
+    System.out.print("Dirección de domicilio: ");
+    String direccionDenunciante = scanner.nextLine();
+    System.out.print("Tipo de denuncia: ");
+    String tipoDenunciaDenunciante = scanner.nextLine();
+    System.out.print("Sexo: ");
+    String sexoDenunciante = scanner.nextLine();
 
 
 
