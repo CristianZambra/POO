@@ -22,6 +22,14 @@ public class Denunciante {
     }
 
 
+    @Override
+    public String toString() {
+        return "Nombre: " + nombreCompleto + ", ID: " + numeroID + ", Dirección: " + direccionDomicilio + ", Tipo de denuncia: " + tipoDenuncia + ", Sexo: " + sexo;
+    
+    }   
+    
+
+
     public String getNombreCompleto() {
         return nombreCompleto;
     }
