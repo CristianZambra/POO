@@ -12,6 +12,13 @@ public class Denunciado {
     private int numeroID;
     private String direccionDomicilio;
     private String sexo;
+    
+    public Denunciado(String nombreCompleto, int numeroID, String direccionDomicilio, String sexo) {
+        this.nombreCompleto = nombreCompleto;
+        this.numeroID = numeroID;
+        this.direccionDomicilio = direccionDomicilio;
+        this.sexo = sexo;
+    }
 
 
 
