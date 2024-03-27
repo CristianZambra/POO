@@ -5,7 +5,6 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 
-
 public class Denunciado {
     private String nombreCompleto;
     private int numeroID;
@@ -64,7 +63,6 @@ public String getSexo() {
 public void setSexo(String sexo) {
     this.sexo = sexo;
 }
-
 
 
 }
