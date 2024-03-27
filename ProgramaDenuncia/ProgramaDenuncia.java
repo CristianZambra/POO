@@ -17,6 +17,13 @@ public class ProgramaDenuncia {
     String crimenesPrevios = crimen1.toString() + ", " + crimen2.toString() + ", " + crimen3.toString();
 
 
+    //Codigo de la Denuncia
+    CodigoDenuncia codigoDenuncia = new CodigoDenuncia(123456);
+
+    //Datos solicitados el Denunciante
+    System.out.println("Ingrese los datos del denunciante:");
+    System.out.print("Nombre completo: ");
+
 
 
 
