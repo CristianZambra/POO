@@ -10,6 +10,13 @@ public class ProgramaDenuncia {
     Scanner scanner = new Scanner(System.in);
 
 
+    //Datos de Crimenes previos
+    Crimen crimen1 = new Crimen("Asesinato", "Descripción del asesinato");
+    Crimen crimen2 = new Crimen("Robo", "Descripción del robo");
+    
+
+
+
 
 
 
