@@ -9,6 +9,8 @@ public class ProgramaDenuncia {
     public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
+    //Datos del Agente
+    String agenteEncargado = "Agente Zambrano";
 
     //Datos de Crimenes previos
     Crimen crimen1 = new Crimen("Asesinato", "Descripción del asesinato");
