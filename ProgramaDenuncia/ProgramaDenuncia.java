@@ -60,7 +60,8 @@ public class ProgramaDenuncia {
     System.out.print("Descripción de la denuncia: ");
     String descripcionDenuncia = scanner.nextLine();
 
-
+    //Instancia Denuncia
+    Denuncia denuncia = new Denuncia(tipoDenunciaDenuncia, descripcionDenuncia, fechaHora, agenteEncargado, nombreDenunciado, "En proceso", crimenesPrevios, codigoDenuncia);
 
 
 
