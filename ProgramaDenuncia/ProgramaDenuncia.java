@@ -39,21 +39,24 @@ public class ProgramaDenuncia {
 
     //Datos del Denunciado
     System.out.println("\nIngrese los datos del denunciado:");
-        System.out.print("Nombre completo: ");
-        String nombreDenunciado = scanner.nextLine();
-        System.out.print("Número de ID: ");
-        int idDenunciado = Integer.parseInt(scanner.nextLine());
-        System.out.print("Dirección de domicilio: ");
-        String direccionDenunciado = scanner.nextLine();
-        System.out.print("Sexo: ");
-        String sexoDenunciado = scanner.nextLine();
+    System.out.print("Nombre completo: ");
+    String nombreDenunciado = scanner.nextLine();
+    System.out.print("Número de ID: ");
+    int idDenunciado = Integer.parseInt(scanner.nextLine());
+    System.out.print("Dirección de domicilio: ");
+    String direccionDenunciado = scanner.nextLine();
+    System.out.print("Sexo: ");
+    String sexoDenunciado = scanner.nextLine();
 
-        //Datos de la Denuncia
-        System.out.println("\nIngrese los datos de la denuncia:");
-        System.out.print("Tipo de denuncia: ");
-        String tipoDenunciaDenuncia = scanner.nextLine();
-        System.out.print("Descripción de la denuncia: ");
-        String descripcionDenuncia = scanner.nextLine();
+    //Instancia del Denunciante    
+    Denunciado denunciado = new Denunciado(nombreDenunciado, idDenunciado, direccionDenunciado, sexoDenunciado);
+
+    //Datos de la Denuncia
+    System.out.println("\nIngrese los datos de la denuncia:");
+    System.out.print("Tipo de denuncia: ");
+    String tipoDenunciaDenuncia = scanner.nextLine();
+    System.out.print("Descripción de la denuncia: ");
+    String descripcionDenuncia = scanner.nextLine();
 
 
 
