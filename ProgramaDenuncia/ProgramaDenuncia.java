@@ -33,6 +33,9 @@ public class ProgramaDenuncia {
     System.out.print("Sexo: ");
     String sexoDenunciante = scanner.nextLine();
 
+    //Instancia de Denunciante
+    Denunciante denunciante = new Denunciante(nombreDenunciante, idDenunciante, direccionDenunciante, tipoDenunciaDenunciante, sexoDenunciante);
+
 
     //Datos del Denunciado
     System.out.println("\nIngrese los datos del denunciado:");
