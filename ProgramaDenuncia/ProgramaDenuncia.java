@@ -50,7 +50,7 @@ public class ProgramaDenuncia {
     System.out.print("Sexo: ");
     String sexoDenunciado = scanner.nextLine();
 
-    //Instancia del Denunciante    
+    //Instancia del Denunciado   
     Denunciado denunciado = new Denunciado(nombreDenunciado, idDenunciado, direccionDenunciado, sexoDenunciado);
 
     //Datos de la Denuncia
@@ -62,6 +62,11 @@ public class ProgramaDenuncia {
 
     //Instancia Denuncia
     Denuncia denuncia = new Denuncia(tipoDenunciaDenuncia, descripcionDenuncia, fechaHora, agenteEncargado, nombreDenunciado, "En proceso", crimenesPrevios, codigoDenuncia);
+
+     //Fecha y Hora
+    LocalDateTime now = LocalDateTime.now();
+    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+    String fechaHora = now.format(formatter);
 
 
     System.out.println("\nInformación de la denuncia:");
