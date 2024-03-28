@@ -64,9 +64,11 @@ public class ProgramaDenuncia {
     Denuncia denuncia = new Denuncia(tipoDenunciaDenuncia, descripcionDenuncia, fechaHora, agenteEncargado, nombreDenunciado, "En proceso", crimenesPrevios, codigoDenuncia);
 
 
+    System.out.println("\nInformación de la denuncia:");
+    System.out.println(denuncia.toString());
 
 
-
+    scanner.close();
 
 
 }
