@@ -34,6 +34,18 @@ public class ProgramaDenuncia {
     String sexoDenunciante = scanner.nextLine();
 
 
+    //Datos del Denunciado
+    System.out.println("\nIngrese los datos del denunciado:");
+        System.out.print("Nombre completo: ");
+        String nombreDenunciado = scanner.nextLine();
+        System.out.print("Número de ID: ");
+        int idDenunciado = Integer.parseInt(scanner.nextLine());
+        System.out.print("Dirección de domicilio: ");
+        String direccionDenunciado = scanner.nextLine();
+        System.out.print("Sexo: ");
+        String sexoDenunciado = scanner.nextLine();
+
+
 
 
 
