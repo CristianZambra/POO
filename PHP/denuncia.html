@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crear nueva denuncia</title>
+    <style>
+        /* Estilos CSS aquí */
+    </style>
+</head>
+<body>
+    <h2>Crear nueva denuncia</h2>
+    <div id="formulario">
+        <div id="contenido">
+            <div id="datos_denuncia">
+                <h2>Datos de la denuncia</h2>
+                <input type="text" placeholder="Tipo de denuncia">
+                <br><br>
+                <input type="text" placeholder="Descripción">
+                <br><br>
+                <input type="text" placeholder="Fecha del hecho">
+                <br><br>
+                <input type="text" placeholder="Encargado">
+                <br><br>
+                <input type="text" placeholder="Número de registro">
+                <br><br>
+                <button onclick="mostrarOfendido()">Siguiente</button>
+            </div>
+            
+            <div id="ofendido" style="display: none;">
+                <h2>Ingresar datos del Ofendido</h2>
+                <input type="text" placeholder="Nombre">
+                <br><br>
+                <input type="text" placeholder="DNI">
+                <br><br>
+                <input type="text" placeholder="Dirección">
+                <br><br>
+                <input type="text" placeholder="Teléfono">
+                <br><br>
+                <input type="text" placeholder="Sexo">
+                <br><br>
+                <button onclick="mostrarDenunciado()">Siguiente</button>
+            </div>
+            
+            <div id="denunciado" style="display: none;">
+                <h2>Ingresar datos del Denunciado</h2>
+                <input type="text" placeholder="Nombre">
+                <br><br>
+                <input type="text" placeholder="DNI">
+                <br><br>
+                <input type="text" placeholder="Dirección">
+                <br><br>
+                <input type="text" placeholder="Sexo">
+                <br><br>
+                <button onclick="guardarDatos()">Guardar</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function mostrarOfendido() {
+            document.getElementById('datos_denuncia').style.display = 'none';
+            document.getElementById('ofendido').style.display = 'block';
+        }
+
+        function mostrarDenunciado() {
+            document.getElementById('ofendido').style.display = 'none';
+            document.getElementById('denunciado').style.display = 'block';
+        }
+
+        function guardarDatos() {
+            // Aquí puedes agregar el código para guardar los datos en la base de datos.
+            alert('Datos guardados correctamente');
+            // También podrías redirigir al usuario a otra página o realizar alguna otra acción.
+        }
+    </script>
+</body>
+</html>

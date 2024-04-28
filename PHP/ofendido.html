@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ingresar datos del Ofendido</title>
+    <style>
+        /* Estilos CSS aquí */
+    </style>
+</head>
+<body>
+    <div id="ofendido" class="pagina">
+        <h2>Ingresar datos del Ofendido</h2>
+        <input type="text" placeholder="Nombre">
+        <br><br>
+        <input type="text" placeholder="DNI">
+        <br><br>
+        <input type="text" placeholder="Dirección">
+        <br><br>
+        <input type="text" placeholder="Teléfono">
+        <br><br>
+        <input type="text" placeholder="Sexo">
+        <br><br>
+        <button onclick="mostrarFormulario('denunciado')">Siguiente</button>
+    </div>
+
+    <div id="denunciado" class="pagina" style="display: none;">
+        <h2>Ingresar datos del Denunciado</h2>
+        <input type="text" placeholder="Nombre">
+        <br><br>
+        <input type="text" placeholder="DNI">
+        <br><br>
+        <input type="text" placeholder="Dirección">
+        <br><br>
+        <input type="text" placeholder="Sexo">
+        <br><br>
+        <button onclick="guardarDatos()">Guardar</button>
+    </div>
+
+    <script>
+        function mostrarFormulario(pagina) {
+            var paginas = document.getElementsByClassName('pagina');
+            for (var i = 0; i < paginas.length; i++) {
+                paginas[i].style.display = 'none';
+            }
+            document.getElementById(pagina).style.display = 'block';
+        }
+
+        function guardarDatos() {
+            // Aquí puedes agregar el código para guardar los datos en la base de datos.
+            alert('Datos guardados correctamente');
+            // También podrías redirigir al usuario a otra página o realizar alguna otra acción.
+        }
+    </script>
+</body>
+</html>
